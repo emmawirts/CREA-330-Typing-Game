@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #33a0df;
+  background-color: #f37328;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #f0e09c;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 50px 20px;
@@ -28,12 +28,12 @@ body {
 }
 
 h3 {
-  margin: 0;
+  margin: 50;
   opacity: 0.5;
   letter-spacing: 2px;
 }
 
-.joke {
+.word {
   font-size: 30px;
   letter-spacing: 1px;
   line-height: 40px;
@@ -42,8 +42,8 @@ h3 {
 }
 
 .btn {
-  background-color: #a4cca2;
-  color: #fff;
+  background-color: #6ce248;
+  color: #000000;
   border: 0;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
