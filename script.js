@@ -15,17 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
       { type: "noun", category: "a plural common noun" },
       { type: "noun", category: "a plural common noun" },
       { type: "noun", category: "a proper noun" },
-      { type: "verb", category: "a present tense verb ending in -s" },
-      { type: "verb", category: "a present tense verb ending in -s" },
-      { type: "verb", category: "a past tense verb ending in -ed" },
-      { type: "verb", category: "a past tense verb ending in -ed" },
-      { type: "verb", category: "a verb ending in -ing" },
-      { type: "verb", category: "a verb ending in -ing" },
-      { type: "verb", category: "a verb ending in -ing" },
-      { type: "adjective", category: "a color adjective" },
-      { type: "adjective", category: "an adjective ending in -ing" },
-      { type: "adjective", category: "an adjective ending in -y" },
-      { type: "adjective", category: "an adjective ending in -y" }
+      { type: "verb", category: "a present tense verb (e.g., run, jump)" },
+      { type: "verb", category: "a present tense verb (e.g., run, jump)" },
+      { type: "verb", category: "a past tense verb (e.g., walked, jumped)" },
+      { type: "verb", category: "a past tense verb (e.g., walked, jumped)" },
+      { type: "verb", category: "a verb ending in -ing (e.g., running, jumping)" },
+      { type: "verb", category: "a verb ending in -ing (e.g., running, jumping)" },
+      { type: "verb", category: "a verb ending in -ing (e.g., running, jumping)" },
+      { type: "adjective", category: "a color adjective (e.g., blue, red)" },
+      { type: "adjective", category: "an adjective ending in -ing (e.g., boring, exciting)" },
+      { type: "adjective", category: "an adjective ending in -y (e.g., funny, stinky)" },
+      { type: "adjective", category: "an adjective ending in -y (e.g., funny, stinky)" }
     ];
   
     let index = 0;
@@ -76,10 +76,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Generate the Mad Lib text
     function generateMadLib() {
-      const madLib = `One day, a ${adjectives[0]} ${nouns[0]} and a ${adjectives[1]} ${nouns[1]} decided to ${verbs[0]} and ${verbs[1]} all around town. Meanwhile, a ${adjectives[2]} ${nouns[2]} were ${verbs[2]} near some ${nouns[3]}. Everyone was amazed when the ${adjectives[3]} ${nouns[4]} suddenly started to ${verbs[3]}, ${verbs[4]}, and ${verbs[5]}! It was the goofiest thing anyone had ever seen!`;
+      const madLib = `One day, a ${adjectives[0]} ${nouns[0]} and a ${adjectives[1]} ${nouns[1]} decided to ${verbs[0]} and ${verbs[1]} all around town. Meanwhile, a few ${adjectives[2]} ${nouns[2]} were ${verbs[2]} near some ${nouns[3]}. Everyone was amazed when the ${adjectives[3]} ${nouns[4]} suddenly started to ${verbs[3]}, ${verbs[4]}, and ${verbs[5]}! It was the goofiest thing anyone had ever seen!`;
   
       storyContainer.innerHTML = `<p>${madLib}</p>`;
     }
   });
-
+  
   
