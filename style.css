@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -18,27 +18,39 @@ body {
 }
 
 .container {
-  background-color: #f0e09c;
+  background-color: #f7b19f;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-  padding: 50px 20px;
-  text-align: center;
-  max-width: 100%;
-  width: 800px;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 20px;
 }
 
 h3 {
-  margin: 50;
-  opacity: 0.5;
+  margin: 10px;
+  opacity: 0.8;
   letter-spacing: 2px;
 }
 
-.word {
-  font-size: 30px;
-  letter-spacing: 1px;
-  line-height: 40px;
-  margin: 50px auto;
-  max-width: 600px;
+.middle-container .word-list {
+    
+  background-color: #f0d39c;
+  font-size: 18px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.bottom-container .story-container {
+    
+  background-color: #f0d39c;
+  font-size: 18px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
 }
 
 .btn {
@@ -58,26 +70,4 @@ h3 {
 
 .btn:focus {
   outline: 0;
-}
-
-.input-list {
-  margin-top: 20px;
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-height: 200px;
-  overflow-y: auto;
-}
-
-.input-list p {
-  margin: 5px 0;
-}
-
-.story-container {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
 }
